@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.689);
+  height: 12vh;
+}
+
+.header img {
+  width: 140px;
+}
+
+.header .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right select {
+  padding: 10px;
+  color: white;
+  box-shadow: none;
+  border-radius: 5px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.355);
+}
+
+.right button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  font-weight: bold;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.742);
+  height: 88vh;
+  gap: 20px;
+}
+
+.hero-section h1 {
+  font-size: 60px;
+  font-weight: 900;
+  
+}
+
+.hero-section form {
+  margin-top: 20px;
+}
+
+.hero-section form input {
+  width: 360px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow: none;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.259);
+  color: white;
+}
+
+.hero-section p {
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.hero-section form button {
+  height: 48px;
+  width: 140px;
+  background-color: red;
+  color: white;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/cc73e7c7-7860-4ef4-8fc8-1baf24569d2f/web/IN-en-20260126-TRIFECTA-perspective_90d714e8-acc9-4253-ab46-ca6b349c1989_large.jpg);
+}
+
+.trending-section {
+  color: white;
+  padding: 30px 120px;
+  background-color: black;
+}
+
+.trending-section h2 {
+  color: white;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 28px;
+  background-color: rgba(0, 0, 0, 0.775);
+  overflow: scroll;
+}
+
+/* Target all browsers */
+.cards {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.cards::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.card1 img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box-input {
+  position: relative;
+}
+
+input + label {
+  position: absolute;
+}
+
+input {
+  height: 40px;;
+  padding-left: 4px;
+}
+
+label {
+  position: absolute;
+  left:8px;
+  top:15px;
+  transition: all 0.2s ease-in-out 
+  
+}
+
+input:focus + label {
+  top : 2px;
+  font-size: 15px;
+}
+
+form {
+  display: flex;
+}
+
+
